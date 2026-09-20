@@ -1,0 +1,1580 @@
+{
+ "minam": [
+  {
+   "slug": "lodge-dusk",
+   "alt": "The Minam River Lodge at dusk",
+   "hero": true,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "bush-plane",
+   "alt": "A bush plane on the grass airstrip",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "trail-in",
+   "alt": "The trail in through the pines",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "meadow-gate",
+   "alt": "The meadow gate at the lodge",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "dining-hall",
+   "alt": "The dining hall under globe lights",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "lodge-bar",
+   "alt": "The lodge bar",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "menu-wildflower",
+   "alt": "A dinner menu and a wildflower",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "crudo",
+   "alt": "Crudo, plated",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "breakfast",
+   "alt": "Breakfast on the deck",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "greenhouse",
+   "alt": "Inside the greenhouse",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "farm-rows",
+   "alt": "The kitchen garden",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 2368
+  },
+  {
+   "slug": "hot-tub-sunset",
+   "alt": "The wood-fired hot tub at sunset",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "river",
+   "alt": "The Minam River",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "smoky-sunset",
+   "alt": "A smoky valley sunset",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "woodpile",
+   "alt": "A stacked woodpile",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "forest-sign",
+   "alt": "The Wallowa-Whitman forest",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "log-bridge",
+   "alt": "A log bridge over the creek",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "lodge-gate",
+   "alt": "The lodge gate",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "popcorn",
+   "alt": "Togarashi popcorn",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "pavilion",
+   "alt": "The meadow pavilion",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "stepping-stones",
+   "alt": "Log-round stepping stones",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "robes",
+   "alt": "Sauna robes",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "porch-swing",
+   "alt": "A porch swing over the meadow",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "fire-pit",
+   "alt": "The fire pit at dusk",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "cabin",
+   "alt": "A cabin in the meadow",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "soap",
+   "alt": "Minam River Lodge soap",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "map",
+   "alt": "The lodge trail map",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "hallway",
+   "alt": "A cabin hallway",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "cabin-meadow",
+   "alt": "A cabin in the meadow",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "sauna",
+   "hero": false,
+   "alt": "The sauna by the river",
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "lodge-trail-sign",
+   "hero": false,
+   "alt": "The Minam River Lodge sign on the trail in",
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  }
+ ],
+ "alaska": [
+  {
+   "slug": "tidewater-glacier",
+   "alt": "A tidewater glacier from the kayak",
+   "hero": true,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "fiftieth-cake",
+   "alt": "The fiftieth-birthday cake",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "turnagain-arm",
+   "alt": "Turnagain Arm",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "alyeska-tram",
+   "alt": "The Alyeska tram station",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "bison",
+   "alt": "Bison in a green pasture",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "ferry-bell",
+   "alt": "The Aurora ferry bell",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "red-cessna",
+   "alt": "A red Cessna on the airstrip",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "aerial-glacier",
+   "alt": "A glacier river from the air",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "kennecott",
+   "alt": "The Kennecott mill",
+   "hero": false,
+   "widths": [
+    400,
+    400,
+    800,
+    800,
+    1200,
+    1200,
+    1600,
+    1600,
+    2400,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "root-glacier",
+   "alt": "Root Glacier",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "hot-cocoa",
+   "alt": "Hot cocoa and crampons on the ice",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "glacier-mice",
+   "alt": "Glacier mice",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "bald-eagle",
+   "alt": "A bald eagle on a pinnacle",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "whale",
+   "alt": "A sea otter",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "sea-stack",
+   "alt": "A sea stack in turquoise water",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "exit-glacier",
+   "alt": "Exit Glacier",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "alyeska-dusk",
+   "alt": "Alyeska on the last night",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "sound-water",
+   "alt": "Prince William Sound",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "rainbow",
+   "alt": "A rainbow over the sound",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "mill-interior",
+   "alt": "Inside the Kennecott mill",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "wrangell-volcano",
+   "alt": "A Wrangell volcano behind the spruce",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "aerial-2",
+   "alt": "Braided glaciers from the air",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "sea-lions",
+   "alt": "Sea lions on the rocks",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "orcas",
+   "alt": "Orcas in the sound",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "fjord-cliffs",
+   "alt": "Cliffs of the Kenai Fjords",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "iditarod",
+   "alt": "Iditarod Mile 0, Seward",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "seward-town",
+   "alt": "The Seward waterfront",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "kennecott-sign",
+   "alt": "The Kennecott company store",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "cotton-grass",
+   "alt": "Dryas in seed, the pioneer that follows a retreating glacier",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "sea-stack-sun",
+   "alt": "A sea stack at sunburst",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "whittier-harbor",
+   "hero": false,
+   "alt": "The small-boat harbor at Whittier",
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "creek",
+   "hero": false,
+   "alt": "A creek tumbling to the sound",
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "glacier-portage",
+   "hero": false,
+   "alt": "A glacier across the water",
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "otter-afloat",
+   "hero": false,
+   "alt": "A sea otter afloat",
+   "widths": [
+    400,
+    800,
+    1200,
+    1600
+   ],
+   "w": 1600,
+   "h": 1200
+  }
+ ],
+ "sardinia": [
+  {
+   "slug": "pink-beach",
+   "alt": "A pink-sand beach in the archipelago",
+   "hero": true,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "costa-smeralda",
+   "alt": "A terrace over the Costa Smeralda",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "caprera-granite",
+   "alt": "Granite formations at Caprera",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "gorropu",
+   "alt": "The Gola di Gorropu",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "watchtower",
+   "alt": "The Santa Maria Navarrese watchtower",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "orosei-cliffs",
+   "alt": "Cliffs of the Gulf of Orosei",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "sea-cave",
+   "alt": "Inside a sea cave, Bue Marino",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "cala-luna",
+   "alt": "Cala Luna",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "porceddu",
+   "alt": "Porceddu roasting over the fire",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "cefalu-duomo",
+   "alt": "The Cefalu cathedral",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "cefalu-rooftops",
+   "alt": "Cefalu rooftops from above",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "strombolicchio",
+   "alt": "Strombolicchio",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "stromboli-eruption",
+   "alt": "Stromboli erupting at night",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1350
+  },
+  {
+   "slug": "testa-di-moro",
+   "alt": "A ceramic testa di moro",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "isola-bella",
+   "alt": "Isola Bella, Taormina",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "greek-theatre",
+   "alt": "The Greek Theatre and Etna",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "ortigia-duomo",
+   "alt": "The Ortigia cathedral",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "ear-of-dionysius",
+   "alt": "The Grotta dei Cordari, Syracuse",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "pesto-pasta",
+   "alt": "Pesto pasta",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "orosei-pinnacles",
+   "alt": "Limestone pinnacles above the sea",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "cefalu-mosaic",
+   "alt": "The cathedral mosaic, Cefalu",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "archipelago-cove",
+   "alt": "A cove in the archipelago",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "defender",
+   "alt": "Our jeep on the mountain road",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "taormina-arch",
+   "alt": "A rock arch over the sea, Taormina",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "fonte-aretusa",
+   "alt": "Fonte Aretusa, the ancient freshwater spring on Ortigia, Syracuse",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "ortigia-night",
+   "alt": "The Ortigia cathedral at night",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "bougainvillea",
+   "alt": "Bougainvillea over an alley",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "cefalu-beach",
+   "alt": "The Cefalu beach",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "osteria-carbonara",
+   "alt": "Carbonara at Osteria da Fortunata",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "cefalu-street",
+   "alt": "A Cefalu street at dusk",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "aeolian-sunset",
+   "alt": "Sunset over the Aeolian Sea",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "grotto",
+   "alt": "A sea grotto",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "diana-fountain",
+   "alt": "Piazza Archimede at night, Ortigia",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1134
+  },
+  {
+   "slug": "sun-pillar",
+   "alt": "A sun pillar over the Tyrrhenian",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "sailboats",
+   "alt": "Sailboats off La Maddalena",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "antipasti",
+   "alt": "An antipasti spread",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1440
+  },
+  {
+   "slug": "cefalu-bay",
+   "alt": "Cefalu and its bay",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "strombolicchio-town",
+   "alt": "Stromboli town and Strombolicchio",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "islets",
+   "alt": "Islets of La Maddalena",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "orosei-cove",
+   "alt": "A cove on the Gulf of Orosei",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "orosei-cave",
+   "alt": "A sea cave on the Gulf of Orosei",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "osteria-courtyard",
+   "alt": "The courtyard at Agriturismo La Colti",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3764
+  },
+  {
+   "slug": "olive-tree",
+   "alt": "A millennial wild olive at Santa Maria Navarrese, among Europe's oldest trees",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "navarrese-beach",
+   "alt": "The bay at Santa Maria Navarrese",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  },
+  {
+   "slug": "sailboats-sunset",
+   "alt": "Sailboats at sunset off the Costa Smeralda",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "orosei-turquoise",
+   "alt": "Turquoise water on the Gulf of Orosei",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 3200
+  },
+  {
+   "slug": "salt-flats",
+   "alt": "The salt flats near Cagliari",
+   "hero": false,
+   "widths": [
+    400,
+    800,
+    1200,
+    1600,
+    2400
+   ],
+   "w": 2400,
+   "h": 1800
+  }
+ ]
+}
