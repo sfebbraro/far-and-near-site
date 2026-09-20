@@ -140,16 +140,28 @@
   #tripForm button:hover{opacity:.85}
   .modal-note{font-family:'Jost';font-size:.64rem;letter-spacing:.06em;color:var(--muted);margin-top:14px;display:none}
   .hp{position:absolute!important;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none}
-  .modal-thanks{display:none;text-align:center;padding:24px 0}
-  .modal-thanks.show{display:block}
-  .modal-thanks p{font-family:'Fraunces';font-style:italic;font-size:1.4rem;line-height:1.45;color:var(--ink);margin:0 auto 24px;max-width:34ch}
-  .thanks-logo{height:22px;width:auto;opacity:.5;margin:0 auto}
+  .modal-thanks{display:none;text-align:center;padding:16px 0}
+  .thanks-logo{height:30px;width:auto;margin:0 auto 20px}
+  .thanks-offer{font-family:'Jost';font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);margin-bottom:16px}
+  .modal-thanks p{font-family:'Fraunces';font-style:italic;font-size:1.4rem;line-height:1.45;color:var(--ink);margin:0 auto;max-width:34ch}
+  .modal-card.done .modal-eyebrow,
+  .modal-card.done h3,
+  .modal-card.done .modal-sub,
+  .modal-card.done #tripOfferLabel,
+  .modal-card.done #tripForm{display:none}
+  .modal-card.done .modal-thanks{display:block}
+  .tagline .tag-short{display:none}
+  @media(max-width:600px){
+    .tagline .tag-full{display:none}
+    .tagline .tag-short{display:inline}
+    .topbar-in .label{letter-spacing:.1em;font-size:.6rem}
+  }
 </style>
 </head>
 <body>
 <div class="topbar"><div class="wrap topbar-in">
   <span class="label">A travel journal</span>
-  <span class="label">In pursuit of a trip well spent</span>
+  <span class="label tagline"><span class="tag-full">In pursuit of a trip well spent</span><span class="tag-short">Trips Well-Spent</span></span>
 </div></div>
 
 <header class="masthead">
@@ -237,7 +249,7 @@
 </div></section>
 
 <section class="sec letter" id="letter"><div class="wrap letter-in">
-  <div class="about-mark"><img src="logo/far-and-near-logo-muted.svg" alt="Far &amp; Near"></div>
+  <div class="about-mark"><img src="logo/far-and-near-logo.svg" alt="Far &amp; Near"></div>
   <p class="lead2">For people who want to experience a place, not just visit it.</p>
   <p class="sub">The right places to stay, the food worth the drive, and experiences worth going out of your way for. Sometimes that is a luxury spa and a long dinner after a day spent getting dirty on the trail, in the water, or somewhere well off the itinerary. Sometimes it is a house with a ridiculous view and room for everyone. The best trips are the ones you are still talking about long after you get home.</p>
   <div class="tagline-mark">Rich Experiences · Real Adventure</div>
@@ -279,8 +291,9 @@
       <div class="modal-note">This form is not connected to your Google Form yet.</div>
     </form>
     <div class="modal-thanks" id="tripThanks">
-      <p>Thank you, from one traveler to another. I will be in touch soon, and we will make it time well spent.</p>
-      <img class="thanks-logo" src="logo/far-and-near-logo-muted.svg" alt="Far &amp; Near">
+      <img class="thanks-logo" src="logo/far-and-near-logo.svg" alt="Far &amp; Near">
+      <div class="thanks-offer" id="thanksOffer"></div>
+      <p>Thank you for your interest. From one traveler to another, I'll be in touch soon so we can start planning a trip well spent.</p>
     </div>
   </div>
 </div>
@@ -304,6 +317,8 @@
   var form=document.getElementById('tripForm');
   var thanks=document.getElementById('tripThanks');
   var note=document.querySelector('.modal-note');
+  var card=document.querySelector('#tripModal .modal-card');
+  var currentOffer='';
   var configured=!!GFORM_ACTION;
 
   if(configured){
@@ -314,9 +329,10 @@
   } else if(note){ note.style.display='block'; }
 
   function openModal(offer){
+    currentOffer=offer||'';
     document.getElementById('tripOffer').value=offer;
     document.getElementById('tripOfferLabel').textContent = offer ? ('Regarding · '+offer) : '';
-    form.style.display=''; thanks.classList.remove('show');
+    card.classList.remove('done');
     modal.classList.add('open');
   }
   function closeModal(){ modal.classList.remove('open'); }
@@ -341,7 +357,11 @@
     if(window.gtag) gtag('event','offer_submit',{offer:document.getElementById('tripOffer').value});
   });
   document.getElementById('tripFrame').addEventListener('load',function(){
-    if(submitted){ form.style.display='none'; thanks.classList.add('show'); submitted=false; }
+    if(submitted){
+      document.getElementById('thanksOffer').textContent = currentOffer ? ('Regarding · '+currentOffer) : '';
+      card.classList.add('done');
+      submitted=false;
+    }
   });
 
   var ig=document.getElementById('followLink');
