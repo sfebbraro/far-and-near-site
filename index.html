@@ -76,10 +76,9 @@
   .story.soon .ph{display:flex;align-items:center;justify-content:center;height:300px;border:1px solid var(--line);background:var(--paper-2)}
   .story.soon .ph span{font-family:'Jost';font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
   .work{background:var(--paper-2)}
-  .work-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
-  .svc{padding:8px 34px 8px 0;border-right:1px solid var(--line)}
-  .svc:last-child{border-right:0;padding-right:0}
-  .svc:not(:first-child){padding-left:34px}
+  .work-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:56px}
+  .svc{padding:8px 0;position:relative}
+  .svc + .svc::before{content:"";position:absolute;left:-28px;top:0;bottom:0;width:1px;background:var(--line)}
   .svc .num{font-family:'Fraunces';font-style:italic;font-size:1.05rem;color:var(--muted);margin-bottom:16px}
   .svc h3{font-size:1.55rem;margin-bottom:8px}
   .svc .price{font-family:'Jost';font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:20px}
@@ -109,7 +108,8 @@
   .foot-fine{font-family:'Jost';font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
   @media(max-width:900px){
     .idx,.work-grid{grid-template-columns:1fr}.work-grid{gap:40px}
-    .svc{border-right:0;padding:0!important;border-top:1px solid var(--line);padding-top:32px!important}
+    .svc{padding:0!important;border-top:1px solid var(--line);padding-top:32px!important}
+    .svc + .svc::before{display:none}
     .svc:first-child{border-top:0;padding-top:0!important}
     .mainnav-in{gap:0;justify-content:flex-start}.mainnav-in a{display:none}.burger{display:flex}
     .mainnav-in.open{flex-direction:column;height:auto;padding:12px 0;align-items:flex-start}.mainnav-in.open a{display:block;padding:.5rem 0}
@@ -118,6 +118,7 @@
 
   .masthead .flag img{height:clamp(42px,8vw,72px);width:auto;display:inline-block;vertical-align:middle}
   .logotype{height:.92em;width:auto;display:inline-block;vertical-align:baseline;transform:translateY(.06em)}
+  .amp{height:.82em;width:.68em;display:inline-block;vertical-align:-.14em;fill:currentColor}
   footer .fw img{height:26px;width:auto;display:inline-block}
   .letter .lead2{font-family:'Fraunces';font-size:clamp(1.7rem,3.2vw,2.25rem);line-height:1.4;color:var(--ink);font-weight:400}
   .letter .about-mark{margin-bottom:2rem}
@@ -150,18 +151,16 @@
   .modal-card.done #tripOfferLabel,
   .modal-card.done #tripForm{display:none}
   .modal-card.done .modal-thanks{display:block}
-  .tagline .tag-short{display:none}
   @media(max-width:600px){
-    .tagline .tag-full{display:none}
-    .tagline .tag-short{display:inline}
-    .topbar-in .label{letter-spacing:.1em;font-size:.6rem}
+    .tagline{display:none}
   }
 </style>
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute;overflow:hidden" aria-hidden="true"><symbol id="fnamp" viewBox="3060 0 1620 1950"><g transform="translate(-8.00,1538.00) scale(1,-1)" fill="currentColor"><path transform="translate(3129.00,0)" d="M173 176 1068 940Q1133 995 1170.0 1037.5Q1207 1080 1222.0 1122.0Q1237 1164 1237 1212Q1236 1254 1217.0 1283.5Q1198 1313 1178.5 1339.5Q1159 1366 1158 1397Q1158 1430 1177.5 1453.5Q1197 1477 1233 1478Q1271 1478 1302.5 1436.5Q1334 1395 1335 1325Q1336 1262 1314.5 1204.5Q1293 1147 1242.5 1086.0Q1192 1025 1105 951L211 188Q151 137 110.0 89.0Q69 41 48.0 -5.5Q27 -52 28 -99Q28 -146 47.5 -174.5Q67 -203 86.0 -224.5Q105 -246 106 -274Q107 -305 86.0 -328.0Q65 -351 28 -352Q-15 -353 -41.5 -313.5Q-68 -274 -68 -194Q-69 -106 -7.0 -15.0Q55 76 173 176ZM981 327Q984 367 970.5 400.0Q957 433 943.5 464.5Q930 496 933 532Q935 554 948.5 575.5Q962 597 986.5 612.0Q1011 627 1044 627Q1079 627 1099.0 602.0Q1119 577 1115 529Q1109 408 1063.0 307.5Q1017 207 939.5 134.0Q862 61 762.0 20.5Q662 -20 548 -20Q413 -20 319.0 50.5Q225 121 188.0 245.5Q151 370 185 532Q212 654 269.0 752.5Q326 851 404.5 921.5Q483 992 574.5 1030.5Q666 1069 761 1069Q856 1069 916.5 1035.5Q977 1002 1004.0 947.5Q1031 893 1028 828Q1027 808 1018.0 797.0Q1009 786 996 786Q949 786 910.5 770.0Q872 754 826 714Q832 730 840.0 762.5Q848 795 854 853Q859 948 831.0 1002.0Q803 1056 742 1056Q670 1056 603.5 999.5Q537 943 483.5 830.5Q430 718 394 550Q357 374 381.0 253.5Q405 133 471.5 72.0Q538 11 625 11Q699 11 763.0 37.5Q827 64 874.5 109.0Q922 154 950.0 210.5Q978 267 981 327Z"/></g></symbol></svg>
 <div class="topbar"><div class="wrap topbar-in">
   <span class="label">A travel journal</span>
-  <span class="label tagline"><span class="tag-full">In pursuit of a trip well spent</span><span class="tag-short">Trips Well-Spent</span></span>
+  <span class="label tagline">In pursuit of a trip well spent</span>
 </div></div>
 
 <header class="masthead">
@@ -172,7 +171,7 @@
 <nav class="mainnav"><div class="wrap"><div class="mainnav-in" id="nav">
   <a href="#stories">Destinations</a>
   <a href="#stories">The Journal</a>
-  <a href="#work">Travel, Planned</a>
+  <a href="#work">Travel Planning</a>
   <a href="#letter">About</a>
   <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
 </div></div></nav>
@@ -218,13 +217,13 @@
 </div></section>
 
 <section class="sec work" id="work"><div class="wrap">
-  <div class="sec-head"><h2>Travel, Planned</h2><span class="label">Work with me</span></div>
+  <div class="sec-head"><h2>Travel Planning</h2><span class="label">By appointment</span></div>
   <div class="work-grid">
     <div class="svc">
       <div class="num">i.</div>
       <h3>The Consult</h3>
       <div class="price">$150 · 60 minutes</div>
-      <p>Best for places I know firsthand, the Pacific Northwest and a handful of others, including the ones you have been reading about here. One hour on the trip you're planning and the questions you can't quite answer, so you leave knowing how to make it better.</p>
+      <p>For trips where a little firsthand perspective can make the difference. Start with a short intake, then focus on one part of the trip, from where to stay to how to spend your time, with thoughtful advice for a trip well spent.</p>
       <ul><li>Where to stay, hotel or rental</li><li>How long to spend where</li><li>What's worth your time</li><li>Where to splurge &amp; where not to</li></ul>
       <a class="cta" data-offer="The Consult" href="#">Book a consult</a>
     </div>
@@ -232,7 +231,7 @@
       <div class="num">ii.</div>
       <h3>The Trip Edit</h3>
       <div class="price">from $450 · limited availability</div>
-      <p>For trips that need a deeper look. I'll help shape where you go, where you stay and how you spend your time, then give you a thoughtful plan to take from there.</p>
+      <p>For trips that need a deeper look. A thoughtful, day-by-day plan for up to seven days, bringing together where to stay, what to do, where to eat and drink, how to get around, and the details that make a trip well spent.</p>
       <ul><li>Destination advice</li><li>Hotel vs. rental</li><li>Route &amp; pacing</li><li>A shortlist of stays</li><li>Experiences worth seeking out</li></ul>
       <a class="cta" data-offer="The Trip Edit" href="#">Request a trip edit</a>
     </div>
@@ -240,12 +239,12 @@
       <div class="num">iii.</div>
       <h3>The Stay</h3>
       <div class="price">Complimentary · perks when available</div>
-      <p>Already know where you want to stay? Book eligible hotels through me and I'll pass along advisor rates and perks when they're available, at no extra cost to you.</p>
+      <p>For trips where you already know the destination and just need the right place to stay. Book eligible hotels for preferred rates, advisor perks, and upgrade requests when available, at no extra cost to you.</p>
       <ul><li>Preferred rates when available</li><li>Perks at participating hotels</li><li>Hotel recommendations when needed</li><li>Upgrade requests when possible</li></ul>
       <a class="cta" data-offer="The Stay" href="#">Book a stay</a>
     </div>
   </div>
-  <p class="fora">Planning something bigger, or not sure which fits? <a class="reachlink" data-offer="Not sure / something bigger" href="#">Just reach out</a> and we will find the right way to work together.</p>
+  <p class="fora">Planning something bigger, celebrating a milestone, or not sure which service fits? <a class="reachlink" data-offer="Not sure / something bigger" href="#">Send a few details</a> and we'll find the right way to shape it.</p>
 </div></section>
 
 <section class="sec letter" id="letter"><div class="wrap letter-in">
@@ -266,16 +265,16 @@
   <div class="fw"><img src="logo/far-and-near-logo.svg" alt="Far &amp; Near"></div>
   <nav class="foot-nav">
     <a href="#stories">The Journal</a>
-    <a href="#work">Travel, Planned</a>
+    <a href="#work">Travel Planning</a>
     <a href="#letter">About</a>
   </nav>
-  <div class="foot-fine">© <span id="yr"></span> Far &amp; Near · An independent Fora Travel advisor · Pacific Northwest</div>
+  <div class="foot-fine">© <span id="yr"></span> Far <svg class="amp" aria-hidden="true"><use href="#fnamp"></use></svg> Near · An independent Fora Travel advisor · Pacific Northwest</div>
 </div></footer>
 
 <div class="modal" id="tripModal" aria-hidden="true">
   <div class="modal-card">
     <button class="modal-x" id="tripClose" aria-label="Close">&times;</button>
-    <div class="modal-eyebrow">Work with Far &amp; Near</div>
+    <div class="modal-eyebrow">Work with Far <svg class="amp" aria-hidden="true"><use href="#fnamp"></use></svg> Near</div>
     <h3>Tell me about your trip</h3>
     <p class="modal-sub">A few details and I will be in touch. Nothing is booked or charged here.</p>
     <div class="modal-offer" id="tripOfferLabel"></div>
